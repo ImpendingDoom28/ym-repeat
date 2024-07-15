@@ -1,0 +1,19 @@
+{
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png"
+    },
+    "default_title": "Открыть"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "Рипит - повторитель треков на Яндекс Музыке по нажатию клавиши",
+  "manifest_version": 3,
+  "name": "Ripit",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "version": "1.0.0"
+}
